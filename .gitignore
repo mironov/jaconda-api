@@ -1,0 +1,5 @@
+*.gem
+coverage
+rdoc
+doc
+pkg
