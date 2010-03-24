@@ -7,7 +7,7 @@ begin
     gem.name = "jaconda"
     gem.summary = "The official ruby wrapper for Jaconda API"
     gem.email = "ant.mironov@gmail.com"
-    gem.homepage = "http://github.com/mironov/jaconda"
+    gem.homepage = "http://github.com/mironov/jaconda-api"
     gem.authors = ["Anton Mironov"]
     gem.add_dependency "activeresource"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
