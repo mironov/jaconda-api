@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{jaconda}
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Anton Mironov"]
@@ -16,15 +16,17 @@ Gem::Specification.new do |s|
      "README.markdown"
   ]
   s.files = [
-    "LICENSE",
+    ".gitignore",
+     "LICENSE",
      "README.markdown",
      "Rakefile",
      "VERSION",
+     "jaconda.gemspec",
      "lib/jaconda.rb",
      "test/helper.rb",
      "test/test_jaconda.rb"
   ]
-  s.homepage = %q{http://github.com/mironov/jaconda}
+  s.homepage = %q{http://github.com/mironov/jaconda-api}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
