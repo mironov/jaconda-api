@@ -2,7 +2,7 @@ require 'active_resource'
 
 module Jaconda
   class API < ActiveResource::Base
-    self.site = "http://localhost:3000"
+    self.site = "http://jaconda.im"
     self.prefix = "/api/"
     
     def self.authenticate(api_token)
