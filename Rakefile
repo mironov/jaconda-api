@@ -9,7 +9,7 @@ begin
     gem.email = "ant.mironov@gmail.com"
     gem.homepage = "http://github.com/mironov/jaconda-api"
     gem.authors = ["Anton Mironov"]
-    gem.add_dependency "activeresource"
+    gem.add_dependency "activeresource", "~> 2.3.5"
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
   end
   Jeweler::GemcutterTasks.new
