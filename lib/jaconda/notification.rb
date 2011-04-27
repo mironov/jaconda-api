@@ -1,6 +1,6 @@
 module Jaconda
   class Notification < ActiveResource::Base
-    self.prefix = "/api/v2/rooms/:room_id/"
+    self.prefix = "/api/v2/rooms/:room_id"
     self.element_name = ""
 
     def self.authenticate(options)
