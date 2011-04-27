@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name = "jaconda"
-  s.version = "2.0.0"
+  s.version = "2.0.1"
 
   s.authors = ["Anton Mironov"]
   s.summary = "The official ruby wrapper for Jaconda API"
 
-  s.email = "ant.mironov@gmail.com"
+  s.email = "anton@jaconda.im"
   s.homepage = "https://github.com/jaconda/jaconda-api"
 
   s.require_paths = ["lib"]
@@ -13,7 +13,6 @@ Gem::Specification.new do |s|
                 'test/**/*',
                 'jaconda.gemspec',
                 'Gemfile',
-                'Gemfile.lock',
                 'LICENSE',
                 'Rakefile',
                 'README.markdown']
