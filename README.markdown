@@ -1,7 +1,7 @@
 Jaconda API
 --------------
 
-The official ruby wrapper for working with the [Jaconda REST API](http://help.jaconda.im/kb/api-v2/jaconda-api-documentation)'s XML interface.
+The official ruby wrapper for working with the [Jaconda REST API](http://help.jaconda.im/kb/api-v2/jaconda-api-documentation)'s JSON interface.
 
 ## Installation
 
