@@ -1,6 +1,4 @@
-source :rubygems
-gemspec
+source 'https://rubygems.org'
 
-gem "rake"
-gem "ruby-debug", :platforms => :mri_18
-gem "ruby-debug19", :platforms => :mri_19
+# Specify your gem's dependencies in vagrant-serial.gemspec
+gemspec
