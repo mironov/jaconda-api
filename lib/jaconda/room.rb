@@ -9,6 +9,11 @@ module Jaconda
       API::Presence.find(:all, :params => {:room_id => id})
     end
 
+    def add_presence(user_id)
+      API::Presence.prefix = "/api/v2/rooms/:room_id/"
+      API::Presence.create(:room_id => id, :user_id => user_id)
+    end
+
     def uploads
       API::Upload.prefix = "/api/v2/rooms/:room_id/"
       API::Upload.find(:all, :params => {:room_id => id})
