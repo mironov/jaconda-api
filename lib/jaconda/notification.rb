@@ -11,7 +11,10 @@ module Jaconda
     end
 
     def self.notify(params = {})
-      post(:notify, :message => params, :room_id => @room_id)
+      options = {:room_id => @room_id}
+      headers = {"Content-Type"=>"application/x-www-form-urlencoded"}
+      body = CGI.unescape({message: params}.to_query)
+      connection.post(custom_method_collection_url(:notify, options), body, headers)
     end
   end
 end
