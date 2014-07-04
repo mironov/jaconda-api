@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "jaconda"
-  s.version = "2.0.2"
+  s.version = "2.0.3"
 
   s.authors = ["Anton Mironov"]
   s.summary = "The official ruby wrapper for Jaconda API"
